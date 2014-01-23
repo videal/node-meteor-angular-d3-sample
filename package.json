@@ -1,0 +1,21 @@
+{
+  "name" : "chart-workspace",
+  "description" : "This is a demo project to test Angular.js capability of making single-page applications.",
+  "version" : "0.0.1",
+  "main" : "",
+  "author" : {
+    "name" : "Videal",
+    "email" : "a.mihaylov@videal.net"
+  },
+  "keywords" : [ "" ],
+  "licenses" : {
+    "type" : "none"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/YOUR_LOGIN/chart-workspace.git"
+  },
+  "bugs" : {
+    "web" : "http://github.com/vitche/chart-workspace/issues"
+  }
+}

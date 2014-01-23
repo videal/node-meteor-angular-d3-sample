@@ -1,0 +1,7 @@
+<head>
+    <title>chart-workspace</title>
+    <script src="http://momentjs.com/downloads/moment.min.js"></script>
+</head>
+<body>
+    <div ng-view></div>
+</body>
