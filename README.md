@@ -17,3 +17,4 @@ This project uses the following client-side JavaScript modules:
   1.  "Angular.js" "ngRoute" service;
   2.  "Moment.js";
   3.  "D3" charts.
+
