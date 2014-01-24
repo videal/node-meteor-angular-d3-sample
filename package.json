@@ -1,5 +1,5 @@
 {
-  "name" : "chart-workspace",
+  "name" : "node-meteor-angular-d3-sample",
   "description" : "This is a demo project to test Angular.js capability of making single-page applications.",
   "version" : "0.0.1",
   "main" : "",
