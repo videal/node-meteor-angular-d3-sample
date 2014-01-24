@@ -14,11 +14,10 @@ application.config(['$routeProvider',
             template: '' +
                     '<div>' +
                     '<p>Charts for the following <b>{{rates.length}}</b> rates are available:</p>' +
-                    '<ul>' +
-                    '<li ng-repeat="rate in rates">' +
-                    '<input type="button" name="{{rate.model}}" value=\'Mongo entity "{{rate.name}}" mapped into "{{rate.model}}"\' onclick=\'document.location = "#/rate/" + this.name + "/";\' />' +
-                    '</li>' +
-                    '</ul>',
+                    '<div ng-repeat="rate in rates">' +
+                    '<input type="button" name="{{rate.model}}" value=\'Mongo entity "{{rate.name}}" mapped into "{{rate.model}}"\' onclick=\'document.location = "#/rate/" + this.name + "/";\' class="btn" />' +
+                    '<br /><br />' +
+                    '</div>',
             controller: 'RateListController'
         });
     }]);
