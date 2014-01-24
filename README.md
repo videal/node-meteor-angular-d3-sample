@@ -1,7 +1,8 @@
 chart-workspace
 ===============
 
-This is a demo project to test Angular.js capability of making single-page applications.
+This is a project to test Angular.js capability of making single-page applications.
+Live demo is available at: http://demo.videal.net:9125
 
 Dependencies
 ------------
