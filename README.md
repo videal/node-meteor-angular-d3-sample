@@ -1,5 +1,5 @@
-chart-workspace
-===============
+node-meteor-angular-d3-sample
+=============================
 
 This is a project to test Angular.js capability of making single-page applications.
 Live demo is available at: http://demo.videal.net:9125
