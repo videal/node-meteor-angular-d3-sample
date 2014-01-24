@@ -1,3 +1,6 @@
+Meteor.publish('rates', function() {
+   return Rates.find(); 
+});
 // Will publish only rates for last 24 hours
 var timeStamp = new Date().getTime();
 var interval = (24 * 60 * 60 * 1000); // Hours * minutes * seconds * milliseconds
