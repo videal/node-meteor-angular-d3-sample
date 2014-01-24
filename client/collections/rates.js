@@ -1,5 +1,6 @@
 Rates = new Meteor.Collection('rates');
 Rates.registerRate = function(name, modelName) {
+    Meteor.subscribe(name);
     var model = new Meteor.Collection(name);
     return model;
 };
